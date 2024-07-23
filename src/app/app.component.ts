@@ -7,7 +7,7 @@ import { PersonService } from './person.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  
+  title = 'DevopsAngularApp';
   persons: any[] = [];
 
   constructor(private personService: PersonService) { }
