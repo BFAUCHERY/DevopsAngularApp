@@ -6,6 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PersonService {
+  title = "DevopsAngularApp"
   private apiUrl = 'http://192.168.163.137:8080/api/persons';
 
   constructor(private http: HttpClient) { }
